@@ -11,6 +11,6 @@ const quoteRoutes = require("./routes/quotes");
 app.use(bodyParser.json());
 app.use(cors());
 
-app.use("/api", quoteRoutes);
+app.use("/", quoteRoutes);
 
 app.listen(PORT, () => { console.log(`app is live on port ${PORT}`) });
