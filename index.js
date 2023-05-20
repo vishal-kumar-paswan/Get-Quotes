@@ -10,7 +10,6 @@ const quoteRoutes = require("./routes/quotes");
 // Using cors and body parser
 app.use(bodyParser.json());
 app.use(cors());
+app.use(quoteRoutes);
 
-app.use("/", quoteRoutes);
-
-app.listen(PORT, () => { console.log(`app is live on port ${PORT}`) });
+app.listen(PORT, () => console.log(`app is live on port ${PORT}`));
