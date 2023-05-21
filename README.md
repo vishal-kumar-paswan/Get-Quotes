@@ -1,4 +1,4 @@
-# Get Quotes via Cheerio
+# Get Quotes through web scraping
 The application fetches quotes from https://quotes.toscrape.com/ via web scrapping and returns the data as a JSON response.
 
 ### Get list of quotes here: https://get-quotes-through-cheerio.vercel.app/
